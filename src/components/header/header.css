@@ -73,4 +73,17 @@ header {
     .scroll__down {
         display: none;
     }
+
+    .header__socials {
+        flex-direction: row;
+        position: relative;
+        /* width: 9rem; */
+        left: calc(50% - 1.4rem);
+        top: 2rem;
+        bottom: 0;
+    }
+
+    .header__socials::after {
+        display: none
+    }
 }
